@@ -1,0 +1,29 @@
+# Warnings currently triggered by your code
+- ignore: {name: "Avoid lambda"} # 2 hints
+- ignore: {name: "Avoid reverse"} # 1 hint
+- ignore: {name: "Eta reduce"} # 10 hints
+- ignore: {name: "Functor law"} # 1 hint
+- ignore: {name: "Fuse concatMap/map"} # 1 hint
+- ignore: {name: "Move brackets to avoid $"} # 14 hints
+- ignore: {name: "Redundant $"} # 14 hints
+- ignore: {name: "Redundant as"} # 10 hints
+- ignore: {name: "Redundant bracket"} # 88 hints
+- ignore: {name: "Redundant guard"} # 15 hints
+- ignore: {name: "Redundant seq"} # 1 hint
+- ignore: {name: "Replace case with fromMaybe"} # 1 hint
+- ignore: {name: "Replace case with maybe"} # 2 hints
+- ignore: {name: "Unused LANGUAGE pragma"} # 18 hints
+- ignore: {name: "Use :"} # 2 hints
+- ignore: {name: "Use <$>"} # 3 hints
+- ignore: {name: "Use camelCase"} # 10 hints
+- ignore: {name: "Use catMaybes"} # 2 hints
+- ignore: {name: "Use infix"} # 6 hints
+- ignore: {name: "Use isNothing"} # 2 hints
+- ignore: {name: "Use list comprehension"} # 2 hints
+- ignore: {name: "Use newtype instead of data"} # 7 hints
+- ignore: {name: "Use notElem"} # 1 hint
+- ignore: {name: "Use replicate"} # 1 hint
+- ignore: {name: "Use section"} # 1 hint
+- ignore: {name: "Use tuple-section"} # 1 hint
+- ignore: {name: "Use unwords"} # 1 hint
+- ignore: {name: "Use zipWith"} # 5 hints
