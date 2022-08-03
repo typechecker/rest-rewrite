@@ -67,7 +67,7 @@ instance RewriteRule IO Rewrite Bag where
 
 fromPath :: [String] -> S.HashSet Rewrite
 fromPath [] = S.empty
-fromPath xs = S.fromList $ map go (zip xs (tail xs))
+fromPath xs = S.fromList $ zipWith (curry go) xs (tail xs)
   where
     go :: (String, String) -> Rewrite
     go (x, y) = Rewrite (bag x) (S.singleton $ bag y)
