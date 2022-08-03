@@ -1,8 +1,6 @@
 # Warnings currently triggered by your code
 - ignore: {name: "Avoid lambda"} # 2 hints
 - ignore: {name: "Eta reduce"} # 1 hint
-- ignore: {name: "Functor law"} # 1 hint
-- ignore: {name: "Fuse concatMap/map"} # 1 hint
 - ignore: {name: "Redundant $"} # 6 hints
 - ignore: {name: "Redundant as"} # 10 hints
 - ignore: {name: "Redundant guard"} # 2 hints

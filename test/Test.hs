@@ -62,7 +62,7 @@ rewrites :: (Show oc, Hashable oc, Eq oc)
   => OCAlgebra oc RuntimeTerm IO
   -> S.HashSet Rewrite -> S.HashSet Rewrite -> RuntimeTerm -> IO (S.HashSet RuntimeTerm)
 rewrites impl evalRWs userRWs t0 =
-  resultTerms <$> fst <$> rest
+  resultTerms . fst <$> rest
     RESTParams
       { re           = evalRWs
       , ru           = userRWs
